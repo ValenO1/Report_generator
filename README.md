@@ -38,3 +38,16 @@ Follow the official installation guide for your OS:
 After installing Ollama, download the model:
 ```bash
 ollama pull deepseek-32b
+
+---
+
+## 4. Python Environment Setup
+
+### Prerequisites
+- Python 3.8+ installed.
+
+### Steps
+
+#### Create a virtual environment:
+```bash
+python -m venv .venv
