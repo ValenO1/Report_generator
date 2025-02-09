@@ -9,10 +9,7 @@ This repository contains a **fully automated** pipeline for data analysis and pr
 2. [Installing Ollama](#2-installing-ollama)
 3. [Pulling the Model](#3-pulling-the-deepseek-32b-model)
 4. [Python Environment Setup](#4-python-environment-setup)
-5. [Project Structure](#5-project-structure)
-6. [Running the Pipeline](#6-running-the-pipeline)
-7. [Troubleshooting](#7-troubleshooting)
-8. [References](#8-references)
+5. [Running the Pipeline](#6-running-the-pipeline)
 
 ---
 
@@ -33,7 +30,7 @@ Follow the official installation guide for your OS:
 
 ---
 
-## 3. Pulling the deepseek-r1:32b Model
+## 3. Pulling the Model
 
 After installing Ollama, download the model:
 ```bash
