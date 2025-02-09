@@ -18,7 +18,7 @@ This repository contains a **fully automated** pipeline for data analysis and pr
 
 ## 1. Hardware Requirements
 
-For optimal performance with **deepseek-32b**:
+For optimal performance with **deepseek-r1:32b**:
 - **64 GB** of system RAM (minimum: 32 GB).
 - A modern multi-core CPU (the more cores, the better).
 - **(Optional for GPU acceleration)** A GPU with 24–32 GB VRAM. CPU-only inference may be slow.
@@ -33,11 +33,11 @@ Follow the official installation guide for your OS:
 
 ---
 
-## 3. Pulling the deepseek-32b Model
+## 3. Pulling the deepseek-r1:32b Model
 
 After installing Ollama, download the model:
 ```bash
-ollama pull deepseek-32b
+ollama pull deepseek-r1:32b
 ```
 
 ## 4. Python environment setup
