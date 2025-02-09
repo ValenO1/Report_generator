@@ -55,4 +55,10 @@ python3 -m venv .venv
   - On Windows:
    ```
     .venv\Scripts\activate
- ```
+   ```
+4. Install requirements:
+   ```bash
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
+
