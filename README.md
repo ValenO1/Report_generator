@@ -62,3 +62,9 @@ python3 -m venv .venv
    pip install -r requirements.txt
    ```
 
+## 5. Running the Pipeline
+
+Run the main.py script:
+```bash
+python main.py
+```
