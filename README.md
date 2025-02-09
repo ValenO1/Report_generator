@@ -65,3 +65,7 @@ Run the main.py script:
 ```bash
 python main.py
 ```
+You will be prompted for:
+
+File path (CSV, Excel, JSON, Parquet).
+Query (analysis or prediction request).
