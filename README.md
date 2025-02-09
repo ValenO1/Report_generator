@@ -38,3 +38,4 @@ Follow the official installation guide for your OS:
 After installing Ollama, download the model:
 ```bash
 ollama pull deepseek-32b
+```
