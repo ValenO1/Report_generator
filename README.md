@@ -1,40 +1,40 @@
 # README
 
-This repository contains a **fully automated** pipeline for data analysis and prediction using a large language model (LLM). We assume you’ll be using **Ollama** (an LLM runtime) and the **deepseek-32b** model. Below are the steps to set everything up—covering **hardware requirements**, **model installation**, **Python environment configuration**, and **running** the application.
+This repository contains a **fully automated** pipeline for data analysis and prediction using a large language model (LLM). The pipeline leverages **Ollama** (an LLM runtime) and the **deepseek-32b** model. Below are the steps to set up and run the application.
+
+---
+
+## Table of Contents
+1. [Hardware Requirements](#1-hardware-requirements)
+2. [Installing Ollama](#2-installing-ollama)
+3. [Pulling the Model](#3-pulling-the-deepseek-32b-model)
+4. [Python Environment Setup](#4-python-environment-setup)
+5. [Project Structure](#5-project-structure)
+6. [Running the Pipeline](#6-running-the-pipeline)
+7. [Troubleshooting](#7-troubleshooting)
+8. [References](#8-references)
 
 ---
 
 ## 1. Hardware Requirements
 
-Because **deepseek-32b** is a large model, you should ideally have:
-
-- **64 GB** of system RAM (minimum recommended: 32 GB).
-- A modern CPU with multiple cores (the more, the better).
-- **(Optional for GPU acceleration)** A GPU with at least 24–32 GB of VRAM if you plan to run GPU-accelerated inference. Otherwise, the CPU fallback may be extremely slow.
-
-> **Note**: Exact requirements depend on your specific environment and how Ollama loads the model. For smaller models, you can get away with less RAM/VRAM.
+For optimal performance with **deepseek-32b**:
+- **64 GB** of system RAM (minimum: 32 GB).
+- A modern multi-core CPU (the more cores, the better).
+- **(Optional for GPU acceleration)** A GPU with 24–32 GB VRAM. CPU-only inference may be slow.
 
 ---
 
 ## 2. Installing Ollama
 
-Ollama is a self-contained LLM runner. Follow these steps:
+Follow the official installation guide for your OS:
+1. Visit [Ollama Installation Docs](https://github.com/jmorganca/ollama).
+2. Download and install the appropriate binary for your system.
 
-1. **Clone or download** the Ollama repository:
-   ```bash
-   git clone https://github.com/jmorganca/ollama.git
-2. **Install Ollama** by following the instructions in the official repository’s README or docs:
-   
-   [Ollama Installation Docs](https://github.com/ollama/ollama#installation)
-   Depending on your OS (e.g., macOS or Linux), you may need additional prerequisites. Check the repository for the latest setup details.
+---
 
-3. **Pulling the deepseek-32b Model**:
-   Once Ollama is installed, pull the deepseek-32b model locally:
-   ```bash
-   ollama pull deepseek-r1:32b
-4. **Setting Up a Python Environment**:
-1.Install Python 3.12
-[Download Python](https://www.python.org/downloads/) if it’s not already on your system.
+## 3. Pulling the deepseek-32b Model
 
-Create a virtual environment in your project directory, for examp
-
+After installing Ollama, download the model:
+```bash
+ollama pull deepseek-32b
