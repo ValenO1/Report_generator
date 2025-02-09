@@ -43,4 +43,8 @@ ollama pull deepseek-32b
 ## 4. Python environment setup
 
 1. Install [Python 3.12](https://www.python.org/downloads/).
+2. Create a virtual environment (e.g., .venv) in the project directory:
+```bash
+python3 -m venv .venv
+3.Activate the virtual environment:
 
