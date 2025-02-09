@@ -23,7 +23,8 @@ Ollama is a self-contained LLM runner. Follow these steps:
 1. **Clone or download** the Ollama repository:
    ```bash
    git clone https://github.com/jmorganca/ollama.git
-2- Install Ollama by following the instructions in the official repository’s README or docs:
+2- **Install Ollama** by following the instructions in the official repository’s README or docs:
+   
    [Ollama Installation Docs](https://github.com/ollama/ollama#installation)
 Depending on your OS (e.g., macOS or Linux), you may need additional prerequisites. Check the repository for the latest setup details.
 
