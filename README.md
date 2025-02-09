@@ -39,3 +39,7 @@ After installing Ollama, download the model:
 ```bash
 ollama pull deepseek-32b
 ```
+
+## 4.Python environment setup
+
+
