@@ -28,3 +28,9 @@ Ollama is a self-contained LLM runner. Follow these steps:
    [Ollama Installation Docs](https://github.com/ollama/ollama#installation)
    Depending on your OS (e.g., macOS or Linux), you may need additional prerequisites. Check the repository for the latest setup details.
 
+3. **Pulling the deepseek-32b Model**:
+   Once Ollama is installed, pull the deepseek-32b model locally:
+   ```bash
+   ollama pull deepseek-32b
+This will download the model weights so Ollama can use them. The download size can be several tens of gigabytes.
+
