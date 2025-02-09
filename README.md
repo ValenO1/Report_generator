@@ -32,6 +32,5 @@ Ollama is a self-contained LLM runner. Follow these steps:
    Once Ollama is installed, pull the deepseek-32b model locally:
    ```bash
    ollama pull deepseek-r1:32b
-   
-   This will download the model weights so Ollama can use them. The download size can be several tens of gigabytes.
+      This will download the model weights so Ollama can use them. The download size can be several tens of gigabytes.
 
