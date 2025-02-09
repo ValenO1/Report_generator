@@ -33,8 +33,8 @@ Ollama is a self-contained LLM runner. Follow these steps:
    ```bash
    ollama pull deepseek-r1:32b
 4. **Setting Up a Python Environment**
-Install Python 3.8+
-Download Python if it’s not already on your system.
+Install Python 3.12
+[Download Python](https://www.python.org/downloads/) if it’s not already on your system.
 
 Create a virtual environment in your project directory, for examp
 
