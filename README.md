@@ -32,5 +32,9 @@ Ollama is a self-contained LLM runner. Follow these steps:
    Once Ollama is installed, pull the deepseek-32b model locally:
    ```bash
    ollama pull deepseek-r1:32b
-This will download the model weights so Ollama can use them. The download size can be several tens of gigabytes.
+4. **Setting Up a Python Environment**
+Install Python 3.8+
+Download Python if it’s not already on your system.
+
+Create a virtual environment in your project directory, for examp
 
