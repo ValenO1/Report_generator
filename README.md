@@ -48,7 +48,7 @@ ollama pull deepseek-32b
 python3 -m venv .venv
 ```
 3. Activate the virtual environment:
-  - On Linux/Mac:
+     - On Linux/Mac:
    ```bash
    source .venv/bin/activate
    ```
@@ -56,8 +56,8 @@ python3 -m venv .venv
    ```
     .venv\Scripts\activate
  ```
-4.Install requirements:
-  ```bash
+4. Install requirements:
+   ```bash
    pip install --upgrade pip
-   pip install -r requirements.txt
-  ```
+pip install -r requirements.txt
+```
